@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url('images/bg.jpg');
+    width: 1903px;
+    height: 3071px;
+}
+
+li,
+.bg img {
+    list-style: none;
+    position: absolute;
+    color: white;
+}
+
+.bg {
+    background: url('images/banner/图层 1.png');
+}
+
+.bg2 {
+    background: url('images/banner/图层 5.png');
+}
+
+.text p {
+    padding-top: 10px;
+}
+
+.click:hover {
+    background-color: white;
+    color: #2bd5de;
+}
+
+
+.next-b{
+	background: url('images/next-b/矩形 6.png');
+	height: 1081px;
+	width: 100%;
+}
+
+.top,.bottom{
+	position: relative;
+	z-index: 1;
+}
+
+.left{
+	padding: 467px 0 0 193px;
+	width: 36%;
+	border: 1px solid #000;
+	float: left;
+}
+
+.right{
+	float: left;
+	width: 50%;
+	border: 1px solid #000;
+}
