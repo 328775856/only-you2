@@ -23,7 +23,10 @@ li,
 .bg2 {
     background: url('images/banner/图层 5.png');
 }
-
+#top{
+	background: url('images/图层 17.jpg');
+	height: 136px;
+}
 .text p {
     padding-top: 10px;
 }
@@ -35,25 +38,153 @@ li,
 
 
 .next-b{
-	background: url('images/next-b/矩形 6.png');
+	background: url('images/next-b/人事新服务.png');
 	height: 1081px;
 	width: 100%;
 }
 
-.top,.bottom{
+.next-b .top{
+	width: 100%;
+	height: 500px;
+	border: px solid #03c;
 	position: relative;
-	z-index: 1;
 }
 
 .left{
-	padding: 467px 0 0 193px;
-	width: 36%;
-	border: 1px solid #000;
+	padding: 200px 0 0 600px;
+	width: 10%;
 	float: left;
 }
 
+.left p{
+	color:white;
+}
+
+#p{
+	width:500px;
+	text-shadow:0 0 px blue;
+	font-size:26px;
+	padding-top:10px;
+}
+
+#p+p{
+	font-weight:bold;
+	font-size:20px;
+	padding-top:10px;
+}
+
+#p+p+p{
+	font-weight:bold;
+	font-size:14px;
+	width:300px;
+	text-shadow:0 0 blue;
+	padding-top:10px;
+}
+
 .right{
+	background: url('images/next-b/人易达落地页3.jpg');
+	width: 564px;
+	height: 482px;
+	position: absolute;
+	right: 400px;
+
+}
+
+.next-b .bottom{
+	border: px solid #f30;
+	height: 500px;
+	padding-left:560px;
+}
+
+.next-b .bottom div{
+	background-repeat:no-rep;
+	padding:;
+}
+
+.d1,.d2,.d3{
+	width: 404px;
+	height: 498px;
 	float: left;
-	width: 50%;
-	border: 1px solid #000;
+	position:relative;
+}
+
+.d1{
+	
+	background:url('images/next-b/图层 251.png');
+}
+
+.d2{
+	
+	background:url('images/next-b/图层 12.png');
+}	
+.d3{
+	
+	background:url('images/next-b/图层 13.png');
+}	
+
+.d1 p,.d2 p,.d3 p{
+	padding:10px 0 0 70px;
+}	
+
+.d1 p:first-child{
+	padding:250px 0 0 70px;
+	color:#7dd4fb;
+	font-weight:bold;
+}
+.d2 p:first-child{
+	padding:250px 0 0 70px;
+	color:#93e5eb;
+	font-weight:bold;
+}
+.d3 p:first-child{
+	padding:250px 0 0 70px;
+	color:#7392fa;
+	font-weight:bold;	
+}
+.bottom div>.text1{
+	font-size:20px;	
+}
+
+.bottom div>.text2{
+	font-size:16px;	
+	color:#9297b3;
+}
+
+.bottom div>.text3{
+	font-size:14px;	
+	color:#333;
+}
+
+.bottom div>.text4{
+	border:1px solid #ccc;
+	border-radius:50px;
+	width:70px;
+	text-align:center;
+	padding:10px 50px;
+	margin-left:70px;
+	position:absolute;
+	top:410px;
+	left:-10px;	
+	font-size:12px;
+	color:#666;
+}
+.bottom div>.text4:hover{
+	border:1px solid #7dd4fb;
+}
+
+
+
+.next-c{
+	background-image: url('images/图层 26.png');
+	width: 1063px;
+	height: 528px;
+	margin: 0 auto;
+	margin-top:100px; 
+}
+
+
+#bottom{
+	background:url('images/页脚1.jpg');
+	width: auto;
+	height: 111px;	
 }

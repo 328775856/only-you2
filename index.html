@@ -9,6 +9,7 @@
 
 
 <body>
+	<div id="top"></div>
     <div class="bg">
         <div class="bg2" style="overflow: hidden;width:100%;height: 460px;">
             <ul>
@@ -91,22 +92,52 @@
 			<div class="top">
 				<div class="left">
 					<p><img src="images/next-b/形状 7.png" alt=""></p>
-					<p>NEW TOOLS OF PERSONNEL </p>
+					<p id="p">NEW TOOLS OF PERSONNEL </p>
 					<p>人事新服务</p>
 					<p>我们提供全面、专业、低成本的人事外包服务</p>
 				</div>
 				<div class="right">
-					<img src="images/next-b/图层 14.png" alt="">
-					<img src="images/next-b/形状 7.png" alt="">
-					<img src="images/next-b/形状 7.png" alt="">
-					<img src="images/next-b/形状 7.png" alt="">
-					<img src="images/next-b/形状 7.png" alt="">
 				</div>
 			</div>
-			<div class="bottom"></div>
-			<img src="images/next-b/图层 21.png" alt="" style="position: absolute;">
+			<div class="bottom">
+				<div class="d1">
+					<p>01</p>
+					<p class="text1">企业社保</p>
+					<p class="text2 toUpper">(Enterprise social security)</p>
+					<p class="text3"> 全国一站式社保公积金代缴服务</p>
+					<p class="text4">点击详情</p>
+				</div>
+				<div class="d2">
+					<p>02</p>
+					<p class="text1">个人社保</p>
+					<p class="text2 toUpper">(Personal social security)</p>
+					<p class="text3">  最优质的服务商提供个人社保公积金代缴<br>服务</p>
+					<p class="text4">点击详情</p>
+
+				</div>
+				<div class="d3">
+					<p>03</p>
+					<p class="text1">新媒体招聘</p>
+					<p class="text2 toUpper">(New media recruitment)</p>
+					<p class="text3">  提供独一无二的新媒体招聘策划服务</p>
+					<p class="text4">点击详情</p>
+				</div>
+			</div>
         </div>
     </div>
+    <div class="next-c">
+    </div>
+    <div id="bottom">
+    </div>
+<script type="text/javascript">
+	function toUpper(className){
+		var p=document.getElementsByClassName(className);
+		for(var i=0;i<p.length;i++){
+			p[i].innerHTML=p[i].innerHTML.toUpperCase();
+		}
+	}
+	toUpper('toUpper');
+</script>
 </body>
 
 </html>
