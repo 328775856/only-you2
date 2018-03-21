@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="black" name="apple-mobile-web-app-status-bar-style">
+    <meta content="telephone=no" name="format-detection">
+    <meta content="email=no" name="format-detection">
+    <meta name="description" content="不超过150个字符" />
+    <meta name="keywords" content="" />
+    <meta content="caibaojian" name="author" />
+    <title>前端开发博客</title>
+    <link rel="stylesheet" href="base.css">
+    <style type="text/css">
+    .header {
+        width: 19.2rem;
+        height: 1.32rem;
+        background: url('images/图层 17.jpg') no-repeat;
+        background-size: contain;
+        border: 0px #000 solid;
+    }
+
+    .middle {
+        width: 19.21rem;
+        height: 10.81rem;
+        background: url('images/next-b/人事新服务.png');
+        background-size: contain;
+    }
+
+    .middle .top {
+        margin-left: 6rem;
+    }
+
+    .middle .top .left {
+        float: left;
+    }
+
+    .middle .top .left img {
+        display: inline-block;
+        width: 0.29rem;
+        height: 0.29rem;
+    }
+
+    .middle .top .right {
+        float: left;
+        background: url('images/next-b/人易达落地页3.jpg');
+        width: 5.64rem;
+        height: 4.28rem;
+        margin-left: 1.5rem;
+        background-size: contain;
+    }
+
+    .middle .bottom {
+        margin-left: 3rem;
+    }
+
+    .middle .bottom img {
+        width: 4.02rem;
+        height: 4.98rem;
+        margin-left: ;
+    }
+    </style>
+    <script type="text/javascript">
+    //引入该flexible.min.js
+    ! function(e, t) {
+        function n() {
+            var n = l.getBoundingClientRect().width;
+            t = t || 540, n > t && (n = t);
+            var i = 100 * n / e;
+            r.innerHTML = "html{font-size:" + i + "px;}"
+        }
+        var i, d = document,
+            o = window,
+            l = d.documentElement,
+            r = document.createElement("style");
+        if (l.firstElementChild) l.firstElementChild.appendChild(r);
+        else {
+            var a = d.createElement("div");
+            a.appendChild(r), d.write(a.innerHTML), a = null
+        }
+        n(), o.addEventListener("resize", function() { clearTimeout(i), i = setTimeout(n, 300) }, !1), o.addEventListener("pageshow", function(e) { e.persisted && (clearTimeout(i), i = setTimeout(n, 300)) }, !1), "complete" === d.readyState ? d.body.style.fontSize = "16px" : d.addEventListener("DOMContentLoaded", function(e) { d.body.style.fontSize = "16px" }, !1)
+    }(1921, 3071);
+    </script>
+</head>
+
+<body>
+    <div class="header">
+    </div>
+    <div class="middle">
+        <div class="top clearfix">
+            <div class="left">
+                <img src="images/next-b/形状 7.png" alt="">
+                <p style="color: white;font-size: 0.22rem">NEW TOOLS OF PERSONNEL</p>
+                <p style="color: white;font-size: 0.22rem;font-weight: bold;">人事新服务</p>
+            </div>
+            <div class="right">
+            </div>
+        </div>
+        <div class="bottom">
+            <img src="images/next-b/图层 251.png" alt="">
+            <img src="images/next-b/图层 12.png" alt="">
+            <img src="images/next-b/图层 13.png" alt="">
+        </div>
+    </div>
+</body>
+
+</html>
